@@ -1,0 +1,34 @@
+data/
+# Conda environment files
+conda-meta/
+envs/
+lib/
+bin/
+include/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+.Python
+
+# Conda environment directories
+# these contain installed packages
+pkgs/
+env/
+
+# Conda environment files
+environment.yml  # Uncomment this if you don't want to share your environment file
+*.lock
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
